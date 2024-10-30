@@ -1,0 +1,5 @@
+[data-type='light-lms-quizz/choose3'] tr td:nth-child(1),
+[data-type='light-lms-quizz/choose5'] tr td:nth-child(1),
+[data-type='light-lms-quizz/choose10'] tr td:nth-child(1){
+	vertical-align: top;
+}

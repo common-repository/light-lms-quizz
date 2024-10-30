@@ -1,0 +1,69 @@
+form.wp-block-light-lms-quizz-choose3,
+form.wp-block-light-lms-quizz-choose5,
+form.wp-block-light-lms-quizz-choose10{
+    float: left;
+    width: 100%;
+    margin-bottom: 3em;
+} 
+form.wp-block-light-lms-quizz-choose3 input[type=checkbox]:checked+div,
+form.wp-block-light-lms-quizz-choose5 input[type=checkbox]:checked+div,
+form.wp-block-light-lms-quizz-choose10 input[type=checkbox]:checked+div{
+    background-color: #f7f7f7;
+}
+form.wp-block-light-lms-quizz-choose3 .row2,
+form.wp-block-light-lms-quizz-choose5 .row2,
+form.wp-block-light-lms-quizz-choose10 .row2{
+    float: left;
+    width: 100%;
+} 
+form.wp-block-light-lms-quizz-choose3 .w90,
+form.wp-block-light-lms-quizz-choose5 .w90,
+form.wp-block-light-lms-quizz-choose10 .w90{ 
+	width:calc(100% - 25px);
+	float:right;
+}
+form.wp-block-light-lms-quizz-choose3 p,
+form.wp-block-light-lms-quizz-choose5 p,
+form.wp-block-light-lms-quizz-choose10 p{ 
+    margin-bottom: 0.5em;
+}
+form.wp-block-light-lms-quizz-choose3 p:nth-last-child(1),
+form.wp-block-light-lms-quizz-choose5 p:nth-last-child(1),
+form.wp-block-light-lms-quizz-choose10 p:nth-last-child(1){ 
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+form.wp-block-light-lms-quizz-choose3 .prerequisites > p,
+form.wp-block-light-lms-quizz-choose5 .prerequisites > p,
+form.wp-block-light-lms-quizz-choose10 .prerequisites > p{
+    text-align: left;
+}
+form.wp-block-light-lms-quizz-choose3 p button:active,
+form.wp-block-light-lms-quizz-choose5 p button:active,
+form.wp-block-light-lms-quizz-choose10 p button:active{ 
+    border: 1px solid white;
+}
+.wp-block-light-lms-quizz-choose3 input[type=checkbox],
+.wp-block-light-lms-quizz-choose5 input[type=checkbox],
+.wp-block-light-lms-quizz-choose10 input[type=checkbox]{ 
+    margin-right:10px;
+}
+form.wp-block-light-lms-quizz-choose3 .hide,
+form.wp-block-light-lms-quizz-choose5 .hide,
+form.wp-block-light-lms-quizz-choose10 .hide{
+    display: none;
+}
+form.wp-block-light-lms-quizz-choose3 .feedback1,
+form.wp-block-light-lms-quizz-choose3 .feedback2,
+form.wp-block-light-lms-quizz-choose5 .feedback1,
+form.wp-block-light-lms-quizz-choose5 .feedback2,
+form.wp-block-light-lms-quizz-choose10 .feedback1,
+form.wp-block-light-lms-quizz-choose10 .feedback2{
+    float: left;
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+
